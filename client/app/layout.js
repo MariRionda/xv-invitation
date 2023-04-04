@@ -5,8 +5,8 @@ const links=[{
   label:'DRFullCodeLogin',
   route:'/'
 },{
-  label:'NewCollection',
-  route:'/newCollection'
+  label:'CreateGuests',
+  route:'/createGuests'
 },{
   label:'Admin',
   route:'/admin'
