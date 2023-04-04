@@ -5,6 +5,6 @@ const CreateGuests = () => {
     <div>
       <NewGuest />
     </div>
-  );
-};
+  )
+}
 export default CreateGuests

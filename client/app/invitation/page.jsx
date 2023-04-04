@@ -5,6 +5,6 @@ const Invitation = () => {
     <div>
       <InvitationProtected />
     </div>
-  );
-};
+  )
+}
 export default Invitation

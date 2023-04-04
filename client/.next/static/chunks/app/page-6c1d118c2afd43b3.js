@@ -1,0 +1,9 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[931],{5514:function(e,t,r){Promise.resolve().then(r.bind(r,9049))},9049:function(e,t,r){"use strict";r.r(t);var n=r(9268),o=r(6008),s=r(6006);let i=()=>{let e=(0,o.useRouter)(),[t,r]=(0,s.useState)(""),[i,u]=(0,s.useState)(""),a=r=>{r.preventDefault(),"DavidRionda"===t&&"020719sergiomari"===i?(window.sessionStorage.setItem("drauth",i),e.push("/newCollection"),alert("ok")):alert("Acceso denegado")};return(0,n.jsxs)("div",{children:[(0,n.jsx)("h1",{children:"Login"}),(0,n.jsxs)("form",{onSubmit:a,children:[(0,n.jsxs)("label",{children:["Usuario:",(0,n.jsx)("input",{type:"text",value:t,onChange:e=>r(e.target.value)})]}),(0,n.jsxs)("label",{children:["Contrase\xf1a:",(0,n.jsx)("input",{type:"text",value:i,onChange:e=>u(e.target.value)})]}),(0,n.jsx)("button",{type:"submit",children:"Iniciar sesi\xf3n"})]})]})};t.default=i},3177:function(e,t,r){"use strict";/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var n=r(6006),o=Symbol.for("react.element"),s=(Symbol.for("react.fragment"),Object.prototype.hasOwnProperty),i=n.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,u={key:!0,ref:!0,__self:!0,__source:!0};function a(e,t,r){var n,a={},l=null,c=null;for(n in void 0!==r&&(l=""+r),void 0!==t.key&&(l=""+t.key),void 0!==t.ref&&(c=t.ref),t)s.call(t,n)&&!u.hasOwnProperty(n)&&(a[n]=t[n]);if(e&&e.defaultProps)for(n in t=e.defaultProps)void 0===a[n]&&(a[n]=t[n]);return{$$typeof:o,type:e,key:l,ref:c,props:a,_owner:i.current}}t.jsx=a,t.jsxs=a},9268:function(e,t,r){"use strict";e.exports=r(3177)},6008:function(e,t,r){e.exports=r(8440)}},function(e){e.O(0,[455,744],function(){return e(e.s=5514)}),_N_E=e.O()}]);

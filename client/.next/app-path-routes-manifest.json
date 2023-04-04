@@ -1,0 +1,6 @@
+{
+  "/createGuests/page": "/createGuests",
+  "/invitation/page": "/invitation",
+  "/login/page": "/login",
+  "/page": "/"
+}
