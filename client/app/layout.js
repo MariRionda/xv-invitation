@@ -2,14 +2,11 @@ import '../styles/globals.modules.css'
 import Link from 'next/link'
 
 const links=[{
-  label:'DRFullCodeLogin',
+  label:'DRFullCodeAdmin',
   route:'/'
 },{
   label:'CreateGuests',
   route:'/createGuests'
-},{
-  label:'Admin',
-  route:'/admin'
 },{
   label:'Login',
   route:'/login'
