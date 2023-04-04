@@ -1,4 +1,4 @@
-import FormLogin from '../../components/formLogin/formLogin';
+import FormLogin from '../../components/formLogin/formLogin'
 
 const Login = () => {
   return (
@@ -8,4 +8,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Login

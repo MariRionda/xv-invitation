@@ -1,4 +1,4 @@
-import NewGuest from '../../components/newGuest/newGuest';
+import NewGuest from '../../components/newGuest/newGuest'
 
 const CreateGuests = () => {
   return (
@@ -7,4 +7,4 @@ const CreateGuests = () => {
     </div>
   );
 };
-export default CreateGuests;
+export default CreateGuests

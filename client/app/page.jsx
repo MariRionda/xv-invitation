@@ -1,4 +1,4 @@
-import DRLogin from '../components/drLogin/drLogin';
+import DRLogin from '../components/drLogin/drLogin'
 
 const DRFullCodeAdmin = () => {
   return (
@@ -7,4 +7,4 @@ const DRFullCodeAdmin = () => {
     </div>
   );
 };
-export default DRFullCodeAdmin;
+export default DRFullCodeAdmin

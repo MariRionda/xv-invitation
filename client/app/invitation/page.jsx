@@ -1,4 +1,4 @@
-import InvitationProtected from '../../components/invitationProtected/invitationProtected';
+import InvitationProtected from '../../components/invitationProtected/invitationProtected'
 
 const Invitation = () => {
   return (
@@ -7,4 +7,4 @@ const Invitation = () => {
     </div>
   );
 };
-export default Invitation;
+export default Invitation
