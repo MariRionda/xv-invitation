@@ -1,11 +1,10 @@
 import DRLogin from '../components/drLogin/drLogin';
 
-const DRFullCodeAdmin =()=>{
-  return(
+const DRFullCodeAdmin = () => {
+  return (
     <div>
-      <DRLogin/>
+      <DRLogin />
     </div>
-  )
-
-}
+  );
+};
 export default DRFullCodeAdmin;
