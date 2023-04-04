@@ -1,4 +1,4 @@
-import InvitationProtected from "../../components/invitationProtected/invitationProtected";
+import InvitationProtected from '../../components/invitationProtected/invitationProtected';
 
 const Invitation=()=>{
     return(

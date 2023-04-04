@@ -1,4 +1,4 @@
-import DRLogin from "../components/drLogin/drLogin";
+import DRLogin from '../components/drLogin/drLogin';
 
 const DRFullCodeAdmin =()=>{
   return(

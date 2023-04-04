@@ -1,4 +1,4 @@
-import NewGuest from "../../components/newGuest/newGuest";
+import NewGuest from '../../components/newGuest/newGuest';
 
 
 const CreateGuests=()=>{
