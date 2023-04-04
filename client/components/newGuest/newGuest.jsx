@@ -4,6 +4,8 @@ import axios from "axios";
 import styles from "./newGuest.module.css";
 import Swal from "sweetalert2";
 
+const PORT = 'https://xv-invitation.onrender.com/'
+
 const guestData = {
   name: "",
   state: "No confirmó",
@@ -33,9 +35,10 @@ const NewGuest = () => {
 
   const sendData = async (guest) => {
     await axios
-      .post("http://127.0.0.1:8000/guest/", guest)
+      .post(`${PORT}guest/`, guest)
       .then((response) => {
         createToast("success", response.data.msg);
+        setGuest(guestData);
       })
       .catch((error) => {
         console.error(error);
@@ -43,7 +46,7 @@ const NewGuest = () => {
   };
   const getGuests = async () => {
     await axios
-      .get("http://127.0.0.1:8000/guest/all")
+      .get(`${PORT}guest/all`)
       .then((response) => {
         setAllGuest(response.data);
       })
@@ -53,7 +56,7 @@ const NewGuest = () => {
   };
   const deleteGuests = async (id) => {
     await axios
-      .delete(`http://127.0.0.1:8000/guest/${id}`)
+      .delete(`${PORT}guest/${id}`)
       .then((response) => {
         setAllGuest(response.data);
       })
@@ -121,7 +124,6 @@ const NewGuest = () => {
     }
     guest.phone = "+549" + guest.phone;
     sendData(guest);
-    setGuest(guestData);
   };
 
   return (
